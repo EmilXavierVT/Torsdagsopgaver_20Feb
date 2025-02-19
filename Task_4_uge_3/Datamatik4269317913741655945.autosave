@@ -1,0 +1,14 @@
+Teacher teacher; //we start of by declaring the object and which class it belongs too
+Student student; // 
+Student student1;
+void setup() {
+  teacher =new Teacher("Tess", 30, true);
+  student = new Student("Emil", 27, false, "DAT1");
+  student1 = new Student("Hussain", 24, false, "DAT1");
+  teacher.printName();
+  student.printNameAndTeam();
+  student1.printNameAndTeam();
+  teacher.changeName("Tine");
+  teacher.printName();
+  
+}
