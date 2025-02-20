@@ -28,7 +28,7 @@ boolean iAmHappy() {
  // lengthOfStrings has an int returntype so we must make sure the return is int as well!
 // the length() function tells us the number of characters in the given string
 int lengthOfStrings(String firstString, String secondString) { // here we make a method
-  return firstString.length()*secondString.length();       // which accepts two strings
+  return firstString.length()+secondString.length();       // which accepts two strings
 }                                                       //and multiplies its numerical length
 
 //2.c
@@ -39,8 +39,8 @@ int lengthOfStrings(String firstString, String secondString) { // here we make a
 // this is due to the toUpperCase function built in processing
 
 String displayMessage(String clap, String noClap) {
-  String upperClap = clap.toUpperCase();  // Convert to uppercase
-  String upperNoClap = noClap.toUpperCase();  // Convert to uppercase
+  String upperClap = clap.toUpperCase();  // we make a new variable to Convert to uppercase
+  String upperNoClap = noClap.toUpperCase();  //this variable is then used in the block of code
 
 
   println(upperClap);  // we include the print function in the method

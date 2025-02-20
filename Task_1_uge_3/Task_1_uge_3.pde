@@ -7,7 +7,7 @@ presentation("Emil",27);
 }
 //1.b
 String printHw(){
-  return "Hello there world";
+  return "Hello from the method!";
 }
 //1.c
 void printVariable(String a){
